@@ -22,6 +22,7 @@ const OAuth2Options = {
   credentials: credentials,
   callbackUri: 'http://localhost/testOauth/callback',
   callbackUriParams: {},
+  getAccessTokenParams: {},
   generateStateFunction: () => {},
   checkStateFunction: () => {},
   startRedirectPath: '/login/testOauth',
